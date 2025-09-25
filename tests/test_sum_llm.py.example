@@ -1,0 +1,10 @@
+# tests/test_sum_llm.py.example
+# Durante a oficina, crie um novo arquivo:
+# tests/test_sum_llm.py
+# e cole ali o código de testes gerado pela LLM (apenas código).
+
+import pytest
+from src.sum import sum_numbers
+
+def test_sum_exemplo_basico():
+    assert sum_numbers([1, 2, 3]) == 6.0

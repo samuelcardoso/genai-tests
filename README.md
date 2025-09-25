@@ -26,6 +26,6 @@ Siga o passo a passo em **WORKSHOP.md**.
 Os prompts para a LLM estão em **PROMPTS.md**.
 
 ## Estrutura
-- src/text_utils.py            (código de exemplo)
-- tests/test_text_utils.py     (testes base já prontos)
-- tests/test_text_utils_llm.py (você cria durante a oficina)
+- src/sum.py            (código de exemplo)
+- tests/test_sum.py           (testes base já prontos)
+- tests/test_sum_llm.py       (você cria durante a oficina)
