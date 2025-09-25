@@ -1,0 +1,23 @@
+# ESTE ARQUIVO É UM EXEMPLO.
+# Durante a oficina, crie um novo arquivo chamado:
+# tests/test_text_utils_llm.py
+# e cole ali o código gerado pela LLM.
+
+import pytest
+from src.text_utils import normalize_whitespace, split_chunks
+
+@pytest.mark.parametrize(
+    "raw, expected",
+    [
+        ("  ola   mundo  ", "ola mundo"),
+        ("a   b   c", "a b c"),
+    ],
+)
+def test_normalize_basico_exemplo(raw, expected):
+    assert normalize_whitespace(raw) == expected
+
+def test_split_chunks_basico_exemplo():
+    text = "um dois tres quatro"
+    chunks = split_chunks(text, max_len=9)
+    assert all(len(c) <= 9 for c in chunks)
+    assert " ".join(chunks) == "um dois tres quatro"
