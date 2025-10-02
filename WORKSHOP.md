@@ -7,7 +7,7 @@
 4) Controlar a saída: pedir “apenas código”, imports corretos, nomes de teste.
 5) Reconhecer limites: a LLM pode errar — você valida rodando.
 
-**Duração total:** 30–45 min (aula prática, bem simples)
+**Duração total:** 30–45 min
 
 ---
 
@@ -23,8 +23,8 @@ Pastas e arquivos relevantes:
 ---
 
 ## Setup (5–10 min)
-    git clone https://github.com/samuelcardoso/genai-tests
-    cd genai-tests
+    git clone https://github.com/samuelcardoso/genai-tests-lab
+    cd genai-tests-lab
     python -m venv .venv
     # Windows: .venv\Scripts\activate
     # macOS/Linux:

@@ -1,4 +1,4 @@
-# genai-tests — Oficina simples (Python + pytest + LLMs)
+# genai-tests — Oficina (Python + pytest + LLMs)
 
 Este repositório acompanha a oficina “Seu 1º contato com LLMs para testes unitários (Python + pytest)”.
 
